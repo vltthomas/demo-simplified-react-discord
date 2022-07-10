@@ -1,0 +1,102 @@
+{
+  "guild": [
+    {
+      "id": 0,
+      "name": "Server 1",
+      "icon": "./dataset/images/logo1.png",
+      "member": [
+        {
+          "id": 0,
+          "username": "Iam",
+          "tagname": "iam#0000"
+        },
+        {
+          "id": 1,
+          "username": "Wilson",
+          "tagname": "Wilson#1111"
+        }
+      ],
+      "channel": [
+        {
+          "id": 0,
+          "name": "channel-1",
+          "message": [
+            {
+              "id": 0,
+              "idMember": 0,
+              "content": "First message in this channel ! And it's from me ! :)",
+              "date": "2022-07-10T18:25:43.000Z"
+            },
+            {
+              "id": 1,
+              "idMember": 1,
+              "content": "And this is the second message here ! Hello there",
+              "date": "2022-07-10T18:34:43.000Z"
+            }
+          ]
+        },
+
+        {
+          "id": 1,
+          "name": "second-channel",
+          "message": [
+            {
+              "id": 0,
+              "idMember": 1,
+              "content": "It is my turn this time !",
+              "date": "2022-07-11T18:20:43.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Server 2",
+      "icon": "./dataset/images/logo2.jpg",
+      "member": [
+        {
+          "id": 0,
+          "username": "Joseph",
+          "tagname": "jojo#1777"
+        },
+        {
+          "id": 1,
+          "username": "Wilson",
+          "tagname": "Wilson#1111"
+        },
+        {
+          "id": 2,
+          "username": "Geraldine R.",
+          "tagname": "geraldina#1111"
+        }
+      ],
+      "channel": [
+        {
+          "id": 0,
+          "name": "Saloon",
+          "message": [
+            {
+              "id": 0,
+              "idMember": 0,
+              "content": "Hello here !",
+              "date": "2022-07-07T18:25:43.000Z"
+            },
+            {
+              "id": 1,
+              "idMember": 2,
+              "content": "Hey !",
+              "date": "2022-07-07T18:26:43.000Z"
+            },
+            {
+              "id": 1,
+              "idMember": 1,
+              "content": "Hola !",
+              "date": "2022-07-07T18:30:43.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
