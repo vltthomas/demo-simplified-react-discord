@@ -13,13 +13,15 @@ function IndexServers() {
 
   return (
     <div>
-      <nav className="server-list d-flex flex-column">
-        <img src={logo} alt="logo" className="logo pb-3 pt-2" />
-        <ul className="nav flex-column mb-auto text-center">
+      <nav className="server-list flex-column ">
+        <ul className="nav mb-auto text-center">
+          <Link to="/" className="d-block m-auto">
+            <img src={logo} alt="logo" className="logo pb-3 pt-2" />
+          </Link>
           {guilds &&
             guilds.map((guild) => (
-              <li className="nav-item">
-                <Link to={'/' + guild.id} className="nav-link server pt-3">
+              <li className="nav-item" key={guild.id}>
+                <Link to={'/' + guild.id + '/0'} className="nav-link server pt-3">
                   <img src={guild.icon} alt={'Logo ' + guild.name} />
                 </Link>
               </li>

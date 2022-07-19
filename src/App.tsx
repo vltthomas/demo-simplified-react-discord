@@ -4,7 +4,7 @@ import IndexServers from './component/IndexServers'
 
 function App() {
   return (
-    <div>
+    <div className="d-flex">
       <IndexServers />
       <Outlet />
     </div>

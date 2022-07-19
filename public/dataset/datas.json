@@ -2,18 +2,20 @@
   "guild": [
     {
       "id": 0,
-      "name": "Server 1",
-      "icon": "./dataset/images/logo1.png",
+      "name": "Top DiscServer",
+      "icon": "/dataset/images/logo1.png",
       "member": [
         {
           "id": 0,
           "username": "Iam",
-          "tagname": "iam#0000"
+          "tagname": "iam#0000",
+          "avatar": "/dataset/images/avatar1.png"
         },
         {
           "id": 1,
           "username": "Wilson",
-          "tagname": "Wilson#1111"
+          "tagname": "Wilson#1111",
+          "avatar": "/dataset/images/avatar2.png"
         }
       ],
       "channel": [
@@ -53,22 +55,25 @@
     {
       "id": 1,
       "name": "Server 2",
-      "icon": "./dataset/images/logo2.jpg",
+      "icon": "/dataset/images/logo2.jpg",
       "member": [
         {
           "id": 0,
           "username": "Joseph",
-          "tagname": "jojo#1777"
+          "tagname": "jojo#1777",
+          "avatar": "/dataset/images/avatar4.png"
         },
         {
           "id": 1,
           "username": "Wilson",
-          "tagname": "Wilson#1111"
+          "tagname": "Wilson#1111",
+          "avatar": "/dataset/images/avatar2.png"
         },
         {
           "id": 2,
           "username": "Geraldine R.",
-          "tagname": "geraldina#1111"
+          "tagname": "geraldina#1111",
+          "avatar": "/dataset/images/avatar3.png"
         }
       ],
       "channel": [
@@ -84,13 +89,13 @@
             },
             {
               "id": 1,
-              "idMember": 2,
+              "idMember": 1,
               "content": "Hey !",
               "date": "2022-07-07T18:26:43.000Z"
             },
             {
-              "id": 1,
-              "idMember": 1,
+              "id": 2,
+              "idMember": 2,
               "content": "Hola !",
               "date": "2022-07-07T18:30:43.000Z"
             }

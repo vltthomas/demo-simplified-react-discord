@@ -1,0 +1,50 @@
+.server-info {
+  background-color: #2f3136;
+  border-radius: 10px 0 0 0;
+  color: white;
+  width: 235px;
+  min-width: 235px;
+}
+
+.server-info .title {
+  border-bottom: 1px solid #232428;
+  box-shadow: 0px 1px #2b2d32;
+}
+
+.server-info .title h1 {
+  font-size: large;
+  font-weight: bold;
+}
+
+.channel {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 0.92rem;
+}
+
+.channel:before {
+  content: '#';
+  padding-right: 10px;
+  font-size: 1.5rem;
+  color: #96989d;
+}
+
+.channel:hover,
+.activeChan {
+  background-color: #3c3f45;
+  color: #fffff4;
+}
+
+.channel-link {
+  text-decoration: none;
+  color: #96989d;
+  font-weight: bold;
+}
+
+.channel-link:hover {
+  text-decoration: none;
+  color: #96989d;
+}

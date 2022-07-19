@@ -1,0 +1,71 @@
+.message-panel {
+  background-color: #36393f;
+  color: white;
+  width: 100%;
+  min-width: 400px;
+}
+
+.channel-title {
+  border-bottom: 1px solid #2b2e33;
+  box-shadow: 0px 1px #32353b;
+}
+
+.channel-title h2 {
+  font-size: large;
+  font-weight: bold;
+}
+
+.channel-title h2:before {
+  content: '#';
+  padding-right: 15px;
+  padding-left: 10px;
+  color: #96989d;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.date-message {
+  font-size: 0.7rem;
+  color: #a3a6aa;
+}
+
+.formbox {
+  background-color: #40444b;
+  border-radius: 10px;
+  width: 97%;
+  height: 50px;
+}
+
+form {
+  height: 100%;
+}
+
+.textform {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.textform::placeholder {
+  color: #a4abaf;
+}
+
+.textform:focus {
+  outline: none;
+}
+
+.submitbutton {
+  background-color: transparent;
+  border: none;
+  border-left: 1px solid #2b2e33;
+  width: 50px;
+}
+
+.submitbutton img {
+  width: 29px;
+}

@@ -3,6 +3,9 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import App from './App'
+import MessagePanel from './component/MessagePanel'
+import ServerPage from './component/ServerPage'
+import StartingPage from './component/StartingPage'
 import './index.css'
 import reportWebVitals from './reportWebVitals'
 
@@ -11,9 +14,11 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />}>
-          {/* <Route path="clients" element={<Clients />} />
-          <Route path="newClient" element={<ClientForm />} /> */}
+        <Route path="/*" element={<App />}>
+          <Route index element={<StartingPage />} />
+          <Route path=":id/*" element={<ServerPage />}>
+            <Route path=":idChan" element={<MessagePanel />} />
+          </Route>
         </Route>
       </Routes>
     </BrowserRouter>

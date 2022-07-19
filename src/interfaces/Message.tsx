@@ -2,7 +2,7 @@ interface Message {
   id: number
   idMember: number
   content: string
-  date: Date
+  date: string
 }
 
 export default Message
