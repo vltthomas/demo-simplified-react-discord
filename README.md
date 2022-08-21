@@ -1,4 +1,4 @@
-# POKEMON VIEWER
+# DISCORD SIMPLIFIED DEMO
 
 This project uses the following technologies :
 
