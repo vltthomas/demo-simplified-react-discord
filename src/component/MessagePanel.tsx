@@ -23,11 +23,12 @@ function MessagePanel() {
 
   function addNewMessage(event: any) {
     console.log(event)
-    if (channel) {
+    if (channel && event.target.messageForm.value.trim().length !== 0) {
       const newMessage: Message = { id: channel.message.length, idMember: 1, content: event.target.messageForm.value, date: new Date().toISOString() }
       setChannel({ ...channel, message: [...channel.message, newMessage] })
+      setMessageFormValue('')
     }
-    setMessageFormValue('')
+
     event.preventDefault()
   }
 
